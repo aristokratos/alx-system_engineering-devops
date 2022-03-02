@@ -1,2 +1,2 @@
 #!/bin/bash
-echo MZ > /tmp/iamafile
+!echo asdf > $tmp/iamafile
