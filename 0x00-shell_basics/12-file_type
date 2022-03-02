@@ -1,2 +1,2 @@
 #!/bin/bash
-!echo asdf > $tmp/iamafile
+file /tmp/iamafile
