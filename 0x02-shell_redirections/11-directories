@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la | egrep '^d.*\.$' | wc -l
+ls -ld .* | egrep '^-' | wc -l .* | egrep '^d' | wc -l
