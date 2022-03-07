@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la | grep '^d' |awk '{print $9}' |egrep '^\.[^\.]' |wc -l
+echo $(($(ls -ld .* | egrep '^d' | wc -l) - 2))
