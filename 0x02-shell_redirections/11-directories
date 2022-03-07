@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ld .* | egrep '^-' | wc -l .* | egrep '^d' | wc -l
+ls -ld .* | egrep '^d' | tail -n +3 | wc -l echo $(($(ls -ld .* | egrep '^d' | wc -l) - 2))
