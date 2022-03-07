@@ -1,2 +1,2 @@
 #!/bin/bash
-ls /path/to/root_dir/*/*/ egrep '^d' | wc -l
+ls /path/to/0x02-shell_redirections_dir/*/*/ egrep '^d' | wc -l
