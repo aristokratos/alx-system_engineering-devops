@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la | egrep '^.*\.$' | wc -l
+ls -la | grep '^d' |awk '{print $9}' |egrep '^\.[^\.]' |wc -l
