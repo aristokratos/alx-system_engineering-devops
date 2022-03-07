@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | egrep '^d' | wc -l
+ls /path/to/root_dir/*/*/ egrep '^d' | wc -l
